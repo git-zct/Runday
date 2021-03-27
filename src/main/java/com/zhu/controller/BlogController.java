@@ -120,7 +120,7 @@ public class BlogController {
         }
         return blogService.unStarBlog(blogId);
     }
-
+//获取
     @RequestMapping("get_hot_blog")
     @ResponseBody
     public ServerResponse getHotBlog(@RequestParam(value = "TimeLimit",required = false,defaultValue = "7")Integer TimeLimit
